@@ -1,0 +1,36 @@
+html{
+    opacity:1;
+    -moz-opacity:1;
+    filter:alpha(opacity=55);
+        width: 800px;
+        background-attachment: fixed;
+        background-image: url('https://www.bing.com/th/id/OGC.07026d280b0e63aafc64600867857841?pid=1.7&rurl=https%3a%2f%2fdata.whicdn.com%2fimages%2f240810300%2foriginal.gif&ehk=kLOIJO8LVKXvfT%2bkwMcsVxxqpri0EE%2f6rLac7ThK7%2fQ%3d');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        
+        
+ 
+}
+body{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+button{
+    background-color: rgb(147, 15, 15);
+    color: black;
+    border: none;
+    display: block;
+    width: 100%;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+@keyframes play{
+    100%{background-position: 1000px;}
+}

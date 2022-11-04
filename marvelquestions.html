@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final 2</title>
+    <link rel="stylesheet" href="marvelquiz.css">
+</head>
+<body>
+
+    <div id="quizDiv"></div>
+    <!-- Holds the quiz form -->
+    
+    <button onclick="submitAnswer()">Submit</button> 
+    <button onclick="nextQuestion()">Next</button> 
+    <!-- The buttons wouldn't work right inside the form so we had to put them here. I think event listeners might have been the solution to include them in JS -->
+
+    <div id="endDiv">
+        <p id="scoreDisplay"></p>
+    </div>
+    <!-- Holds the reload button and score display at the end of the quiz -->
+
+
+    <script src="marvel.js"></script>
+
+</body>
+</html>
